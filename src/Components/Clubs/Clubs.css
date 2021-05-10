@@ -1,0 +1,19 @@
+.clubs {
+  color: white;
+  background-color: rgb(16, 168, 161);
+  width: 30%;
+  /* box-shadow: 5px 10px 18px #8888; */
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  margin: 10px;
+}
+.teamBadge {
+  width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  .clubs {
+    width: 350px;
+  }
+}

@@ -1,0 +1,65 @@
+.detailsContainer {
+  background-color: rgb(6, 11, 34);
+  padding: 0 3rem 3rem;
+  width: 90vw;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 568px) {
+  .detailsContainer {
+    background-color: rgb(6, 11, 34);
+    padding: 0 2rem 2rem;
+    /* width: 85vw; */
+    width: auto;
+    margin: 0 auto;
+  }
+}
+.clubHistory {
+  text-align: justify;
+  color: aliceblue;
+}
+.malefemaleImg {
+  width: 400px;
+}
+@media only screen and (max-width: 768px) {
+  .malefemaleImg {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .malefemaleImg {
+    width: 200px;
+  }
+}
+
+.clubDetails {
+  color: aliceblue;
+  background-color: rgb(3, 75, 71);
+  border-radius: 1.8rem;
+  align-items: center;
+  padding: 1.5rem;
+  width: 55vw;
+  margin: 5px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.socialMedia {
+  padding: 5px;
+  width: 50px;
+}
+.footerpart {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .clubDetails {
+    display: inline-block;
+    width: 70vw;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 568px) {
+  .clubDetails {
+    display: inline-block;
+    width: 83vw;
+    margin: 5px auto;
+  }
+}

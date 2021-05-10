@@ -1,0 +1,28 @@
+.titleBanner {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.home-main-div {
+  background-color: rgb(6, 11, 34);
+}
+.wraper {
+  width: 65vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 768px) {
+  .wraper {
+    flex-direction: column;
+    width: 95vw;
+    align-items: center;
+  }
+}
+.homeFooter {
+  color: white;
+  text-align: center;
+}
